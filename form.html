@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            simple form
+        </title>
+        <style> 
+            td{
+                border:none;
+            }
+        </style>
+    </head>
+    <body>
+        <br><br>
+        <form>
+      <table align="center" cellpadding="5" style="border-color: blue;" border="2">
+          <tr>
+              <td><b>Title:</b></td>
+              <td><select id="gender" name="gender" style="margin-left:60px;">
+                <option value="Mr"><b>Mr.</b></option>
+                <option value="Mrs"><b>Mrs.</b></option>
+                <option value="Ms"><b>Ms.</b></option>
+                </select></td>
+          </tr>
+          <tr>
+            <td><b>FirstName:</b></td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>LastName:</b></td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>Address:</b></td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>City:</b></td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>State</b></td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>Pin Code:</b> </td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>Country</b>:</td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>Phone number</b></td>
+            <td><input type="number" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td><b>Fax:</b></td>
+            <td><input type="text" style="margin-left:60px;"></td>
+        </tr>
+        <tr>
+            <td ><b>Email:</b></td>
+            <td><input type="email" style="margin-left:60px;"></td>
+        </tr>
+        <tr >
+            <td><b>Payment By:</b></td>
+            <td>
+                <input type="radio" id="Payal" style="margin-left:60px;" name="payment"/>
+                <label for="Payal" >Payal</label><br>
+                <input type="radio" id="Manual" style="margin-left:60px;" name="payment">
+                <label for="Manual">Manual:Pay on Arrival</label><br>
+                <input type="radio" id="creditcard" style="margin-left:60px;" name="payment">
+                <label for="creditcard">
+                    Credit Card
+                </label><br>
+            </td>
+        </tr>
+        <tr >
+            <td  ><p style="display:block;position:relative;top:2px;"><b>Any additional request:</b></p></td>
+            <td ><textarea cols="20" rows="3" style="margin-left:60px;"></textarea></td>   
+        </tr>
+        <tr >
+            <td rowspan="2"></td>
+        <td > <input type="checkbox" style="margin-left:60px;"><label> I agree with the <a href="https://">Terms &Condition</a></label>
+        </td>
+        <tr>
+            <td>
+            <input type="button" onclick="alert('successfully submitted!')" style="margin-left:60px; " value="confirm& Checkout"></td>
+        </tr>
+         </tr>
+      </table>
+    </form>
+    </body>
+</html>
